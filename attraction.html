@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="attractions.css">
+   
+      
+    <title>Area 404-Attractions</title>
+</head>
+<body>
+  
+    <header>
+<!-- ALERT -->
+<div id="flip"> Special Covid-19 Message click here.</div>
+<div id="panel">Please check the CDC guidelines before your visit, due to Covid-19 timings and procedures might have been affected. Stay safe Stay healthy.</div>
+<!-- NAVIGATION -->
+  <nav class="navbar navbar-inverse" style="background-color: white">
+  <div class="container-fluid">
+      <div class="navbar-header">
+          <a href="index.html" class="logo">
+              <img alt="Area404 logo" src="assets/images/404logo-white.png" width= "150px">
+          </a>
+
+<!-- DROPDOWN -->       
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+          </button>      
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar" >
+      <ul class="nav navbar-nav">
+          <br><li><a href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="fooddrink.html" id="navbarDropdownfoodLink" data-toggle="dropdown">
+              Food & Drinks
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" onclick="location.href='#noOne'"href="fooddrink.html">404 Top 10</a><br>
+                <a class="dropdown-item" onclick="location.href='#noOne'"href="fooddrink.html#noFilterby">Filter By</a><br>
+              </div>
+          </li>
+          <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="attraction.html" id="navbarDropdownattractLink" data-toggle="dropdown">
+              Attractions
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="attraction.html">This Weekend</a><br>
+                  <a class="dropdown-item" href="nature.html">Nature Perserves</a><br>
+                  <a class="dropdown-item" href="family-fun.html">Family Fun</a>
+                </div>
+          </li>
+          <li><a href="about.html">Our Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+<!--LOG-IN-->
+      <ul class="nav navbar-nav navbar-right">
+          <br><li><a href="assets/Login_v12/index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+      </div>
+      <!-- <p class="4r3a 4oA"</p> -->
+  </div>
+  </nav>
+          </header>
+            <!-- Carousel -->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+            
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                  <a href="https://www.atlantaconcerts.net/" target="_blank">
+                   <img src="images/mercedes benz stadium.jpg" class="background-image" alt="Mercedes-Benz Stadium">
+                    <div class="carousel-caption carFest">
+                    </a>
+                      <h3>Upcoming Concerts</h3>
+                      <p>Get ready for these amazing concert series coming soon!</p>
+                    </div>      
+                  </div>
+            
+                  <div class="item">
+                    <a href="https://www.gafollowers.com/10-best-spots-pictures-atlanta/" target="_blank">
+                    <img src="images/atlanta_2.jpg" style="width:100%" alt="view of Downtown Atlanta and Olympic flame">
+                    <div class="carousel-caption carView">
+                      </a>
+                      <h3>Bring out your inner photographer out</h3>
+                      <p>Best places to enjoy and photograph Atlanta</p>
+                    </div>      
+          </div>
+            
+                  <div class="item brunch">
+                    <a href="https://www.thrillist.com/drink/atlanta/best-brunch-in-atlanta" target="_blank">
+                    <img src="images/brunching.jpg" style="width:100%" alt="people eating brunch"></a>
+                    <div class="carousel-caption carDate">
+                      <h3>Best Brunch Places in Town</h3>
+                      <p>Grab your mask because this weekend we are heading to brunch!</p>
+                     
+                    </div>      
+                  </div>
+                </div>
+            
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+              <!-- CLICKABLE PHOTOS -->
+              <section>
+                  <div class="container text-center">    
+                       <h3>What To Do</h3><br>
+                          <div class="row">
+                            <div class="col-sm-4 park">
+                               <a href="nature.html">
+                                  <img src="images/cascade-springs.jpg" class="img-responsive" style="width: 100%;"  alt="Cascade Springs">
+                                 </a>
+                                    <p>Nature Preserves</p>
+                               </div>
+
+                              <div class="col-sm-4">
+                                <blockquote>
+                                  <p>Area 404's Attractions page will assist you in finding all the fun activities to do in and around Atlanta. 
+                                   Click the photos on either side of this paragraph to lead you to more ATL adventures!
+                                  </p>
+                                </blockquote>
+                               </div>
+
+                              <div class="col-sm-4 kids"> 
+                                <a href="family-fun.html">
+                                  <img src="images/kids playing.jpg" class="img-responsive" style="width:100%"  alt="kids running in a park">
+                                </a>
+                                 <p>Kids get in for free this weekend</p>    
+                               </div>
+                           </div>
+                   </div>
+              </section>                       
+            
+<!-- Jscript -->
+    <script> 
+      $(document).ready(function(){
+        $("#flip").click(function(){
+          $("#panel").slideToggle("slow");
+        });
+        
+      });  
+  
+  // Script for the up button When the user scrolls down 20px from the top of the document, show the button
+  mybutton = document.getElementById("myBtn");
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+  </script>
+ <!--FOOTER-->
+ <footer>
+  <div class ="container">
+      <div class= "row">
+          <div class="col-sm-4" id="left" style="float: left;";>
+          <h3>Quicklinks<h3>
+              <h4><a href="https://www.citypass.com/atlanta?mv_source=atlantacvb&campaign=main-citypass" style="color: white;">Citypass Atlanta</a></h4>
+              <h4><a href="https://www.piedmontpark.org/venue-rentals/" style="color: white;">Park Venus</a></h4>
+              <h4><a href="https://atltransit.ga.gov/system-maps/#marta" style="color: white;">Transportation Maps</a></h4>
+              <h4><a href="http://your360.atlantameetings.com/?_ga=2.195200812.1481458700.1593540640-1419115226.1593540640" style="color: white;">Explore Atlanta</a></h4>
+              <h4><a href="https://atlantafoodwalks.com/" style="color: white;">Atlanta Food Walks</a></h4>
+              <h4><a href="https://biketoursatl.com/" style="color: white;">Bike Tours</a></h4>
+          </div>
+  
+          <div class="col-sm-4" id="middle" style="float: center;">
+              <h3>Site Map</h3>
+              <h4><a href="https://biketoursatl.com/" style="color: white;">Home</a></h4>
+              <h4><a href="https://biketoursatl.com/" style="color: white;">About Us</a></h4>
+              <h4><a href="https://biketoursatl.com/" style="color: white;">Food and Drink</a></h4>
+              <h4><a href="https://biketoursatl.com/" style="color: white;">Attractions</a></h4>
+
+              
+              
+          </div>
+          <div class="col-sm-4" id="right" style="float: right;">
+              <h3><a href="contact.html" style="color: white;">Contact Us</a></h3>
+              <div class="socialmedia">
+              <a href="https://www.facebook.com"><img src="Assets/images/FBlogo.png" alt="facebook link" style="width:35px;height:35px;"></a>
+              <a href="https://www.twitter.com"><img src="assets/images/Twitterlogo.png" alt="linkedin link" style="width:35px;height:35px;"></a>
+              <a href="https://www.instagram.com"><img src="assets/images/IGlogo.png" alt="instagram link" style="width:35px;height:35px;"></a>
+              <a href="https://www.youtub.com"><img src="assets/images/YTlogo.png" alt="github link" style="width:35px;height:35px;"></a>
+              <a href="#"><img src="assets/images/Subcribelogo.png" alt="github link" style="width:35px;height:35px;"></a>
+              </div>
+              <h3>Legal</h3>       
+              <p class="copyright"> website by Creative Tech Bridge Students Copyright © 2020</p>
+          </div>  
+      </div> 
+  </div>         
+  </footer>
+  <!--===============================================================================================-->
+  <script src="assets/Other Pages/main.js"></script>
+</body>
+</html>
