@@ -1,5 +1,7 @@
 # Area404: TCP Front-End Group Project
 
+<img src="https://img.shields.io/badge/html-31.0%25-green"> <img src= "https://img.shields.io/badge/css-68.3%25-green"> <img src= "https://img.shields.io/badge/JavaScript-0.7.5%25-green"> 
+
 ## Project Overview
 
 ### Assignment Description:
@@ -36,8 +38,8 @@ _Your deployed site must include all of the following over at least five HTML pa
 
 ![FoodDrink](images/Area404.gif)
 
-- [_Food and Drink Highlights Section_](fooddrink.html) showcasing curated dining destination across Metro Atlanta
-- [_HTML Contact Form_](contact.html)
+- [_Food and Drink Highlights Section_](https://hjavle.github.io/Area404/fooddrink.html) showcasing curated dining destination across Metro Atlanta
+- [_HTML Contact Form_](https://hjavle.github.io/Area404/contact.html)
 - Global COVID Update Message
 - “Back to Top” Navigation Button (JavaScript Feature)
 
