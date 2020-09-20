@@ -40,7 +40,7 @@ _Your deployed site must include all of the following over at least five HTML pa
 
 - [_Food and Drink Highlights Section_](https://hjavle.github.io/Area404/fooddrink.html) showcasing curated dining destination across Metro Atlanta
 - [_HTML Contact Form_](https://hjavle.github.io/Area404/contact.html)
-- Global COVID Update Message
+- Global COVID Update Message (JavaScript Feature)
 - “Back to Top” Navigation Button (JavaScript Feature)
 
 ### [Nia Smith](https://github.com/niasmith)
