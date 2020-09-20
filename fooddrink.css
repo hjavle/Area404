@@ -156,7 +156,7 @@ border-color: black;
 border-style: solid;
 background-color:whitesmoke;
 }
-.resName{ 
+.restName{ 
 font-weight: 700px;
 text-align: center;
 font-size: 5vw;
@@ -382,6 +382,6 @@ text-align: top;
 }
 
 .resName {
-color: white;
+color:white;
 font-size: 15px;
 }
